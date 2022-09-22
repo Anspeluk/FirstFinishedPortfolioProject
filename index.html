@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html>
+<head>
+	<title>GREEN</title>
+	<link rel="icon" type="image/x-icon" href="./images/logo.ico" />
+	<link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+
+	<!-- !HEADER -->
+	<header>
+		<div id="links">
+			<a href="index.html">Home</a>
+			<a href="kucoinPool.html">Kucoin Pool</a>
+			<a href="about.html">About Us</a>
+			<a href="FAQ.html">FAQ</a>
+			<a href="reviews.html">Reviews</a>
+		</div>
+		<div id="logo">
+			<img src="./images/logo.svg">
+			<span>Kufarm</span>
+		</div>
+		<div id="buttons">
+			<button>Log in</button>
+			<button>Sign Up</button>
+		</div>
+	</header>
+
+	<!-- !MAIN -->
+	<main>
+		<section id="showoff">
+			<div>
+				<div>
+					<span class="blueText">Cloud mining</span>
+					<span class="greyText greyBorder">FREE 500 GH/s on first sign up</span>
+				</div>
+				<h1>Start your Bitcoin mining journey today.</h1>
+				<p class="greyText">Get your first payout today</p>
+				<a href="signUp">Try it out now</a>
+			</div>
+			<div id="slider">
+				<div id="slidesWrapper">
+				<div class="greyText">
+					<img src="./images/miner.png">
+					<h3>Antminer Z9 Mini 5000 GH/s</h3>
+					<p>Run for 360 days</p>
+					<span>0.00001833 BTC per Day</span>
+				</div>
+				<div class="greyText">
+					<img src="./images/miner.png">
+					<h3>Antminer S9K</h3>
+					<p>Run for 360 days</p>
+					<span>0.00003833 BTC per Day</span>
+				</div>
+				<div class="greyText">
+					<img src="./images/miner.png">
+					<h3>Antminer T17</h3>
+					<p>Run for 360 days</p>
+					<span>0.00023833 BTC per Day</span>
+				</div>
+				<div class="greyText">
+					<img src="./images/miner.png">
+					<h3>Antminer S17 Pro</h3>
+					<p>Run for 360 days</p>
+					<span>0.00053833 BTC per Day</span>
+				</div>
+				<div class="greyText">
+					<img src="./images/miner.png">
+					<h3>Antminer S17 E-Series</h3>
+					<p>Run for 360 days</p>
+					<span>0.003133 BTC per Day</span>
+				</div>
+				<div class="greyText">
+					<img src="./images/miner.png">
+					<h3>Antminer S19 PRO+ Hyd.</h3>
+					<p>Run for 360 days</p>
+					<span>0.005 BTC per Day</span>
+				</div>
+				</div>
+				<div id="counter">
+					<ul>
+						<li class="active"></li>
+						<li></li>
+						<li></li>
+						<li></li>
+						<li></li>
+						<li></li>
+					</ul>
+					<div id="yellowShit"></div>
+					<script type="text/javascript">
+						t = 0;
+						var sliderTimer = setInterval(() => {
+							if (t >= 5) {
+								t = 0;
+								yellowShit.style.left = 16 + "px";
+								yellowShit.style.width = 120 + "px";
+								setTimeout( () => {
+	 								yellowShit.style.width = 9+"px";
+	 							}, 200)
+							} else {
+								yellowShit.style.width = 30.6 + "px";
+	 							setTimeout( () => {
+	 								yellowShit.style.width = 9+"px";
+									yellowShit.style.left = 16 + 21.8*t + "px";
+	 							}, 200)
+	 							t++;
+							}
+							slidesWrapper.style.transform = "translateX(" + (66 - 474*t) + "px)";
+						}, 3000)
+					</script>
+				</div> <!-- id="counter" -->
+			</div> <!-- id="slider" -->
+		</section>
+		<section id="benefits">
+			<div class="wrapper">
+				<div>
+					<div>
+						<h3>Stable income</h3>
+						<p class="greyText">Our powerful mining pool <br> guarantees a stable income</p>
+					</div>
+				</div>
+				<img src="./images/moneyBag.png" class="moneybag">
+			</div>
+			<div class="wrapper">
+				<div>
+					<div>
+						<h3>Reliable security <br> system</h3>
+						<p class="greyText">A thoughtful and reliable <br> security system that protects <br> the assets and privacy of users</p>
+					</div>
+				</div>
+				<img src="./images/lock.png" class="lock">
+			</div>
+			<div class="wrapper">
+				<div>
+					<div>
+						<h3>Multiple tokens</h3>
+						<p class="greyText">Currently, the Kuсoin pool <br> supports Bitcoin (BTC), <br> Ethereum (ETH) and Bitcoin <br> Cash (BACK)</p>
+					</div>
+				</div>
+				<img src="./images/coins.png" class="coins">
+			</div>
+		</section>
+		<section id="achievements">
+			<div>
+				<div class="imageWrapper">
+					<img src="./images/gift.png">
+				</div>
+				<span>23827</span>
+				<p class="greyText">Users</p>
+			</div>
+			<div>
+				<div class="imageWrapper">
+					<img src="./images/cash.png">
+				</div>
+				<span>1310.8879</span>
+				<p class="greyText">Bitcoin mined</p>
+			</div>
+			<div>
+				<div class="imageWrapper">
+					<img src="./images/palm.png">
+				</div>
+				<span>30207.1570</span>
+				<p class="greyText">Bitcoin miner purchased</p>
+			</div>
+		</section>
+		<section id="about">
+			<div>
+				<div>
+					<h2>What is Kufarm?</h2>
+					<p class="greyText">Kufarm is a simple and affordable cloud mining service, the main purpose of which is to introduce a wider audience to the world of bitcoin and other cryptocurrencies. Kufarm has a huge number of ASIC miners who mine Bitcoin daily on the Kucoin pool</p>
+					<a href="tryNow">Try it out now</a>
+				</div>
+				<img src="./images/hashfarm.png">
+			</div>
+			<div>
+				<iframe width="631" height="382" src="https://www.youtube.com/watch?v=YVVDVJjnQT0"></iframe>
+				<div>
+					<h2>Earn Money with Kufarm</h2>
+					<p class="greyText">To start mining bitcoins, just select a miner equipment from your personal Kufarm account, each miner has a different cost and rental period, each equipment generates a unique amount of bitcoin daily. these coins are deposited to your personal account. you just have collect your coins everyday without any cost</p>
+				</div>
+			</div>
+		</section>
+		<section id="guarantees">
+			<div>
+				<img src="./images/1.png">
+				<h2>Extensive range of services</h2>
+				<p class="greyText">The KuCoin pool is an important part of the global KuCoin ecosystem, uses the same accounting system as our cloud mining service to ensure security. The KuCoin and Kufarm pool aims to erase the line between mining and trading by providing users with a wide range of mining solutions.</p>
+			</div>
+			<img src="./images/arrowTo2.svg">
+			<div>
+				<img src="./images/2.png">
+				<h2>Reliable mining solutions</h2>
+				<p class="greyText">KuFarm provides a comprehensive mining platform with extensive experience working with mining pools and competitive mining technologies. We strive to provide high-quality and innovative cloud mining service for users who need comprehensive mining services.</p>
+			</div>
+			<img src="./images/arrowTo3.svg">
+			<div>
+				<img src="./images/3.png">
+				<h2>Guarantee of services</h2>
+				<p class="greyText">KuCoin strives to provide qualified projects with opportunities and improve industry standard practices to achieve consensus in the community. We strive to introduce more people around the world to blockchain technology and outstanding projects, as well as contribute towards the sustainable and stable development of our ecosystem.</p>
+			</div>
+		</section>
+		<section id="faq">
+			<script type="text/javascript">
+				function hideText (textNumber) {
+					let div = document.querySelectorAll("#faq > div")[textNumber - 1];
+					let button = div.children[0].children[1];
+					let img = button.children[0];
+					
+					console.log(div, img, button.dataset.textshown);
+					if (button.dataset.textshown == "true") {
+						div.style.height = "70px";
+						button.dataset.textshown = "false";
+						img.src = "./images/cross.svg";
+					} else {
+						div.style.height = "220px";
+						button.dataset.textshown = "true";
+						img.src = "./images/minus.svg";
+					}
+				}
+			</script>
+			<h2>FAQ</h2>
+			<div>
+				<div onclick="hideText(1)">
+					<h3>How does it work?</h3>
+					<button data-textShown="false"><img src="./images/cross.svg"></button>
+				</div>
+				<p class="greyText">Lorem ipsum</p>
+			</div>
+			<div>
+				<div onclick="hideText(2)">
+					<h3>What is the service fee?</h3>
+					<button data-textShown="false"><img src="./images/cross.svg"></button>
+				</div>
+				<p class="greyText">KuCoin strives to provide qualified projects with opportunities and improve industry standard practices to achieve consensus in the community. We strive to introduce more people around the world to blockchain technology and outstanding projects, as well as contribute towards the sustainable and stable development of our ecosystem.</p>
+			</div>
+			<div>
+				<div onclick="hideText(3)">
+					<h3>When can I withdraw funds from my account?</h3>
+					<button data-textShown="false"><img src="./images/cross.svg"></button>
+				</div>
+				<p class="greyText">Lorem ipsum</p>
+			</div>
+			<div>
+				<div onclick="hideText(4)">
+					<h3>Can I buy several different miners?</h3>
+					<button data-textShown="false"><img src="./images/cross.svg"></button>
+				</div>
+				<p class="greyText">Lorem ipsum</p>
+			</div>
+			<div>
+				<div onclick="hideText(5)">
+					<h3>What payment methods do you accept and what coins can be mined?</h3>
+					<button data-textShown="false"><img src="./images/cross.svg"></button>
+				</div>
+				<p class="greyText">Lorem ipsum</p>
+			</div>
+		</section>
+		<section id="lastChance">
+			<h2>Start your bitcoin mining journey today!</h2>
+			<a href="signUp">Register now</a>
+		</section>
+		<div id="greenBlur1"></div>
+		<div id="greenBlur2"></div>
+	</main>
+
+	<!-- !FOOTER -->
+	<footer>
+		<section>
+			<div>
+				<a href="index.html">Home</a>
+				<a href="kucoinPool.html">Kucoin Pool</a>
+				<a href="about.html">About us</a>
+				<a href="FAQ.html">FAQ</a>
+			</div>
+			<div>
+				<a href="telegram">
+					<img src="./images/telegram.svg">
+				</a>
+				<a href="youtube">
+					<img src="./images/youtube.svg">
+				</a>
+			</div>
+			<div>
+				<a href="login">Login</a>
+				<img src="./images/arrowRight.svg">
+			</div>
+		</section>
+		<section>
+			<p>© 2022 Kufarm. All rights reserved. - <a href="privacyPolicy.html">Privacy Policy</a> - <a href="conditions.html">Terms & Conditions</a></p>
+		</section>
+	</footer>
+</body>
+</html>
