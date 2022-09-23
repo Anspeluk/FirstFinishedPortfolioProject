@@ -734,6 +734,11 @@ footer > section:first-of-type > div:last-of-type img {
 		height: 49.38vw;
 	}
 
+	#showoff > div:first-of-type {
+	 	width: 50.15vw;
+	 	padding: 3.09vw 0 3.09vw 4.63vw;
+	 }
+
 	#showoff > div:first-of-type > h1 {
 	 	font-size: 6.48vw;
 	 	margin-top: 1.85vw;
