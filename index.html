@@ -93,7 +93,7 @@
 						var sliderTimer = setInterval(() => {
 							if (t >= 5) {
 								t = 0;
-								yellowShit.style.transform = "translateX("+28*t+"px)";
+								yellowShit.style.transform = "translateX(0px)";
 								yellowShit.style.width = 150 + "px";
 								setTimeout( () => {
 	 								yellowShit.style.width = 9+"px";
@@ -103,11 +103,7 @@
 	 							setTimeout( () => {
 	 								yellowShit.style.width = 9+"px";
 	 								// setTimeout(() => {
-	 								if (t < 3) {
-										yellowShit.style.transform = "translateX("+28*t+"px)";
-	 								} else {
-										yellowShit.style.transform = "translateX("+ ( (28*t) - 1 ) +"px)";
-	 								}
+										yellowShit.style.transform = "translateX("+27.8*t+"px)";
 	 								// }, 1)
 	 							}, 200)
 	 							t++;
