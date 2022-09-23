@@ -106,7 +106,11 @@
 	 							}, 200)
 	 							t++;
 							}
-							slidesWrapper.style.transform = "translateX(" + (66 - 474*t) + "px)";
+							if (window.innerWidth > 1296) {
+								slidesWrapper.style.transform = "translateX(" + (2.33 - 16.66*t) + "%)";
+							} else {
+								slidesWrapper.style.transform = "translateX(" + (0 - 36.573*t) + "vw)";
+							}
 						}, 3000)
 					</script>
 				</div> <!-- id="counter" -->
