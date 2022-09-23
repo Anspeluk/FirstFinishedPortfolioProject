@@ -843,7 +843,7 @@ footer > section:first-of-type > div:last-of-type img {
 		width: 219.44vw ;
 		display: flex;
 		align-self: center;
-		transform: translateX(0%);
+		transform: translateX(2.33%);
 		transition-duration: 0.4s;
 		transition-timing-function: ease-in-out;
 	}
