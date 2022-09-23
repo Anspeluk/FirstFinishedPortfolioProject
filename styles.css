@@ -250,34 +250,42 @@ main {
 	display: inline-block;
 	align-self: center;
 	align-items: center;
-	transform: translateY(-25px);
+	/*align-content: center;*/
+	transform: translateY(-15px);
 }
 
 #counter ul {
+	padding-inline-start: 0px;
  	display: flex;
  	flex-direction: row;
  	justify-content: space-between;
- 	width: 150px;
+ 	width: 148px;
+  	align-self: center;
+  	/*margin: auto;*/
  }
 
 #counter ul li {
-  	width: 1px;
-  	height: 1px;
+	list-style: none;
+  	width: 9px;
+  	height: 9px;
+  	background-color: rgba(138, 138, 138, 0.39);
+  	border-radius: 1111px;
+  	align-self: center;
   }
 
- #counter ul li::marker {
+/* #counter ul li::marker {
  	font-size: 27px;
 	color: rgba(138, 138, 138, 0.39);
- }
+ }*/
 
 /* #counter .active::marker {
  	color: #FFCC51;
  }*/
 
  #yellowShit {
- 	position: relative;
- 	right: -16px;
- 	top: 12px;
+ 	position: absolute;
+ 	left: : 0px;
+ 	top: 0px;
  	width: 9px;
  	height: 9px;
  	border-radius: 13px;

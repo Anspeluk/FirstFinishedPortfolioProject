@@ -80,7 +80,7 @@
 				</div>
 				<div id="counter">
 					<ul>
-						<li class="active"></li>
+						<li></li>
 						<li></li>
 						<li></li>
 						<li></li>
@@ -93,18 +93,22 @@
 						var sliderTimer = setInterval(() => {
 							if (t >= 5) {
 								t = 0;
-								yellowShit.style.transform = "translateX("+21.8*t+"px)";
-								yellowShit.style.width = 120 + "px";
+								yellowShit.style.transform = "translateX("+28*t+"px)";
+								yellowShit.style.width = 150 + "px";
 								setTimeout( () => {
 	 								yellowShit.style.width = 9+"px";
 	 							}, 200)
 							} else {
-								yellowShit.style.width = 30.6 + "px";
+								yellowShit.style.width = 37 + "px";
 	 							setTimeout( () => {
 	 								yellowShit.style.width = 9+"px";
-	 								setTimeout(() => {
-										yellowShit.style.transform = "translateX("+21.8*t+"px)";
-	 								}, 1)
+	 								// setTimeout(() => {
+	 								if (t < 3) {
+										yellowShit.style.transform = "translateX("+28*t+"px)";
+	 								} else {
+										yellowShit.style.transform = "translateX("+ ( (28*t) - 1 ) +"px)";
+	 								}
+	 								// }, 1)
 	 							}, 200)
 	 							t++;
 							}
