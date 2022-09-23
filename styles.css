@@ -276,7 +276,7 @@ main {
 
  #yellowShit {
  	position: relative;
- 	left: 16px;
+ 	right: -16px;
  	top: 12px;
  	width: 9px;
  	height: 9px;
